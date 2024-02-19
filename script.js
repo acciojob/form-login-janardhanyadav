@@ -1,6 +1,6 @@
 function getFormvalue() {
     //Write your code here
-    let inputs = document.querySelector("input")
+    let inputs = document.querySelectorAll("input")
 	let first_name = inputs[0].value
 	let last_name = inputs[1].value
 
